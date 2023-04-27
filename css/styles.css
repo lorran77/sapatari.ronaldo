@@ -1,6 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Sigmar&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
 
 
 
@@ -16,12 +20,26 @@
 
     text-align: center;
     
+    
+}
+
+.titulo-artigo {
+
+    text-align: center;
+    
+    
 }
 
 .subtitulo-pagina{
 
-    text-align: center;
+    text-align: center; 
     margin: 5px;
+    
+}
+
+.subtitulo-artigo {
+
+    text-align: center;
 }
 
 ul{
@@ -48,5 +66,69 @@ a{
 
 body{
 
-    background: #CD853F;
+    background: #fff;
+    margin: 50px 30px 50px 30px;
+}
+
+
+.container-justify-space-around {
+
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+
+    /*indiferente*/
+    
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-titulo-categorias {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration-style: 'Libre Baskerville', serif; size: 70px;
+    
+
+
+    /*indiferente*/
+    
+    padding: 16px;
+    height: 5px;
+}
+
+.container-prazo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration-style: 'Libre Baskerville', serif; 
+    
+
+
+    /*indiferente*/
+    
+    padding: 5px;
+    height: 5px;
+}
+
+.img-categorias {
+
+    width: 500px;
+    height: 500px;
+    
+}
+
+.p-titulo :hover {
+
+    font-family: 'Nanum Myeongjo', serif;
+    background: #DEB887;
+
 }
