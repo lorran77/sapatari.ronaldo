@@ -42,15 +42,15 @@
     text-align: center;
 }
 
-ul{
-    background: #000;
+.ul-home {
+    background: #fff;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
 }
 
 
-li{
+.li-home{
     font-family: 'Roboto Slab', serif;;
     background: rgb(219, 186, 136);
     background-attachment: fixed;
@@ -103,13 +103,17 @@ body{
     height: 5px;
 }
 
-.container-prazo {
+.ul-prazo {
 
-    display: flex;
+    display: inline;
     flex-direction: row;
     justify-content: space-evenly;
+    text-decoration-style: 'Libre Baskerville', serif;
+    margin-left: 20px;
+    margin-right: 25px;
+    list-style: none;
     align-items: center;
-    text-decoration-style: 'Libre Baskerville', serif; 
+    
     
 
 
@@ -117,6 +121,41 @@ body{
     
     padding: 5px;
     height: 5px;
+}
+
+.ul-prazo-dois {
+
+    display: inline;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration-style: 'Libre Baskerville', serif;
+    list-style: none;
+    align-items: center;
+    
+    
+
+
+    /*indiferente*/
+    
+    padding: 5px;
+    height: 5px;
+}
+
+.texto-prazo {
+
+    font-size: large ;
+    align-items: center;
+    font-size: larger;
+    margin-left: 135px;
+    
+    
+}
+
+.img-prazo {
+
+    width: 50px;
+    height: 50px;
+    align-items: center;
 }
 
 .img-categorias {
@@ -131,4 +170,16 @@ body{
     font-family: 'Nanum Myeongjo', serif;
     background: #DEB887;
 
+}
+
+.rodape {
+
+    background: #000;
+    font-family: 'Nanum Myeongjo', serif; color: #fff;
+
+}
+
+.ul.prazo {
+
+    display: inline;
 }
