@@ -6,6 +6,44 @@
   @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 
 
+.banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 5px 20%;
+  }
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body{
+
+    background: #fff;
+    margin: 50px 30px 50px 30px;
+}
+
+.body-cintos {
+
+    background: #fff;
+    margin: 50px 30px 50px 30px;
+
+}
+
+.img-cintos {
+
+    
+
+        width: 300px;
+        height: 300px;
+        align: left;
+
+   
+}
 
 
 .menunavegacao{
@@ -21,12 +59,6 @@
     text-align: center;
     
     
-}
-
-.titulo-artigo {
-
-    text-align: center;
-    
     
 }
 
@@ -37,10 +69,21 @@
     
 }
 
+
+.titulo-artigo {
+
+    text-align: center;
+    
+    
+}
+
+
 .subtitulo-artigo {
 
     text-align: center;
 }
+
+
 
 .ul-home {
     background: #fff;
@@ -57,36 +100,6 @@
     padding: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-
-
-body{
-
-    background: #fff;
-    margin: 50px 30px 50px 30px;
-}
-
-
-.container-justify-space-around {
-
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-
-
-    /*indiferente*/
-    
-    padding: 16px;
-    height: 500px;
-
-}
 
 .container-titulo-categorias {
 
@@ -103,83 +116,65 @@ body{
     height: 5px;
 }
 
-.ul-prazo {
-
-    display: inline;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration-style: 'Libre Baskerville', serif;
-    margin-left: 20px;
-    margin-right: 25px;
-    list-style: none;
-    align-items: center;
-    
-    
+.container-img-categorias {
 
 
-    /*indiferente*/
-    
-    padding: 5px;
-    height: 5px;
-}
 
-.ul-prazo-dois {
-
-    display: inline;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-decoration-style: 'Libre Baskerville', serif;
-    list-style: none;
-    align-items: center;
-    
     
 
 
     /*indiferente*/
     
-    padding: 5px;
-    height: 5px;
+    padding: 16px;
+    height: 500px;
+
 }
 
-.texto-prazo {
-
-    font-size: large ;
-    align-items: center;
-    font-size: larger;
-    margin-left: 135px;
-    
-    
-}
-
-.img-prazo {
-
-    width: 50px;
-    height: 50px;
-    align-items: center;
-}
 
 .img-categorias {
 
     width: 500px;
     height: 500px;
+    border: 5px solid black;
     
 }
 
-.p-titulo :hover {
 
-    font-family: 'Nanum Myeongjo', serif;
-    background: #DEB887;
-
-}
-
-.rodape {
-
-    background: #000;
-    font-family: 'Nanum Myeongjo', serif; color: #fff;
-
-}
-
-.ul.prazo {
+.ul-prazo-dois {
 
     display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration-style: 'Libre Baskerville', serif;
+    list-style: none;
+    
+    
+    
+
+
+    /*indiferente*/
+    
+    padding: 5px;
+    height: 5px;
 }
+
+
+.img-prazo {
+
+    width: 70px;
+    height: 50px;
+    align-items: center;
+   
+}
+
+.li-prazo {
+
+    margin: 0px 0px 30px 0px;
+    font-size: larger;
+}
+
+
