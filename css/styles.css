@@ -27,25 +27,44 @@ body{
     margin: 50px 30px 50px 30px;
 }
 
-.body-cintos {
+.body-catalogo {
 
     background: #fff;
-    margin: 50px 50px 50px 50px;
+    margin: 50px 30px 50px 30px;
 
 }
 
-.img-cintos {
+.img-catalogo {
 
     
 
         width: 300px;
         height: 300px;
-        object-position: center;
+        
         
         
         
 
    
+}
+
+.div-catalogo {
+
+    margin-inline: 3%;
+    background: burlywood;
+    
+}
+
+.container-catalogo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+
 }
 
 
@@ -93,6 +112,7 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 
@@ -101,6 +121,7 @@ body{
     background: rgb(219, 186, 136);
     background-attachment: fixed;
     padding: 20px;
+    
 }
 
 
@@ -155,14 +176,14 @@ body{
 }
 
 
-.ul-prazo-dois {
+.container-prazo-dois {
 
-    display: inline;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-decoration-style: 'Libre Baskerville', serif;
-    list-style: none;
+    margin: 30px 0px 30px 0px;
     
     
     
@@ -183,10 +204,49 @@ body{
    
 }
 
-.li-prazo {
+.div-prazo {
 
     margin: 0px 0px 30px 0px;
     font-size: larger;
 }
+
+
+
+
+footer {
+
+    background: #000;
+    margin: 0%;
+
+}
+
+.text-form {
+
+    color: #fff;
+}
+
+.container-form-pagamento {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.div-form-pag {
+
+    background: #000;
+}
+
+.div-redes{
+
+    background: #000;
+}
+
+.text-redes {
+
+    color: #fff;
+}
+
+
 
 
