@@ -5,6 +5,31 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Yeseva+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=Nanum+Gothic&display=swap');
+
+
+  :root{
+
+    --fonte-titulo-categorias: 'Yeseva One', cursive;
+  }
+
+#copyright {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Baskervville', serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+
+} 
+
 
 .banner {
     width: 100%;
@@ -51,7 +76,8 @@ body{
 .div-catalogo {
 
     margin-inline: 3%;
-    background: burlywood;
+    font-family: var(--fonte-titulo-categorias);
+    
     
 }
 
@@ -62,6 +88,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    
     
 
 
@@ -183,7 +210,7 @@ body{
     justify-content: space-between;
     align-items: center;
     text-decoration-style: 'Libre Baskerville', serif;
-    margin: 30px 0px 30px 0px;
+    margin: 30px 20px 30px 20px;
     
     
     
@@ -215,36 +242,57 @@ body{
 
 footer {
 
-    background: #000;
-    margin: 0%;
+    background: #fff;
+    
 
 }
 
 .text-form {
 
-    color: #fff;
+    color: #000;
+    font-family: var(--fonte-titulo-categorias);
 }
 
-.container-form-pagamento {
+.container-form-pag{
 
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
 
 }
 
 .div-form-pag {
 
-    background: #000;
+    background: #fff;
+    
+    
+}
+
+.img-pag {
+
+    width: 550px;
+    height: 181px;
+    
 }
 
 .div-redes{
 
-    background: #000;
+    background: #fff;
+    
+}
+
+.img-redes {
+
+    width: 50px;
+    height: 50px;
 }
 
 .text-redes {
 
-    color: #fff;
+    color: #000;
+    font-family: var(--fonte-titulo-categorias);
 }
 
 
